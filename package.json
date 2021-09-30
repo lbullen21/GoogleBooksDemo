@@ -1,0 +1,28 @@
+{
+  "name": "googlebooksdemo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bobbyrc/GoogleBooksDemo.git"
+  },
+  "author": "Bobby Craig",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bobbyrc/GoogleBooksDemo/issues"
+  },
+  "homepage": "https://github.com/bobbyrc/GoogleBooksDemo#readme",
+  "dependencies": {
+    "axios": "^0.21.4",
+    "express": "^4.17.1",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.13"
+  }
+}
